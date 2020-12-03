@@ -25,9 +25,12 @@ const userSchema = new mongoose.Schema({
     avtar : {
         type: String ,
         default : "https://www.brandeps.com/icon-download/U/User-icon-vector-01.svg"
+    }
     },
+    {
     
     timestamps: true
+
     
 }) 
 
